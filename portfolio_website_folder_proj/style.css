@@ -1,48 +1,59 @@
+body {
+    background-color: aqua
+}
 
-#box1{
-    display: inline-block;
-   
-    height: 150px;
-    width: 200px;
-    margin-right: 50px;
-    
-}
-#box1:hover{
-    background-color: pink;
-}
-#box2:hover{
-    background-color: pink;
-}
-#box3:hover{
-    background-color: pink;
-}
-#box2{
-    margin-right: 50px;
+#box1 {
     display: inline-block;
     height: 150px;
     width: 200px;
-    
+    margin-right: 100px;
 }
-#box3{
+
+#box1:hover {
+    background-color: pink;
+}
+
+#box2:hover {
+    background-color: pink;
+}
+
+#box3:hover {
+    background-color: pink;
+}
+
+#box2 {
+    margin-right: 50px;
     display: inline-block;
     height: 150px;
     width: 200px;
-    margin-right: 50px;
-    
 }
-#pink{
+
+#box3 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-right: 50px;
+}
+
+#pink {
     height: 60px;
-    width: 80%;
-    background-color: pink;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(247, 127, 14);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
 }
-.change{
+
+.change {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
 }
-.heading{
+
+.heading {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 60px;
 }
-.lng{
-    font-size: 30px;
+
+.lng {
+    font-size: 40px;
 }
