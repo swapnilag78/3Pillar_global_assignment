@@ -1,0 +1,4 @@
+SELECT * FROM movies where Title LIKE "%Toy%";
+SELECT * FROM movies where Director="John Lasseter";
+SELECT Title,Director FROM movies where Director NOT LIKE "John Lasseter";
+SELECT Title,Director FROM movies where Title LIKE "%WALL-%";
