@@ -12,7 +12,7 @@ if (webTechs.includes("sass")) {
 } else {
     webTechs.push("sass");
 }
-
+console.log("Swapnil Agrawal assignemnt!")
 countries.forEach(function(country) {
     let p = document.createElement("p");
     p.textContent = country;
