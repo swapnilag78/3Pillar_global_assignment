@@ -42,14 +42,14 @@ console.log(findMax(0, -10, -2))
 */
 
 function fullName() {
-    console.log("vansh bansal")
+    console.log("Swapnil Agrawal")
 }
 fullName()
 
 function fullName(firstName, lastName) {
     return `${firstName} ${lastName}`;
 }
-fullName("vansh", "bansal");
+fullName("Swapnil", "Agrawal");
 
 function addNumbers(a, b) {
     return a + b;
